@@ -1,6 +1,10 @@
 {
   "src": [
     "pages/Index",
-    "pages/MainPage"
+    "pages/MainPage",
+    "ViewModel/Agent/testPage",
+    "ViewModel/Agents/tsetPage",
+    "ViewModel/Main/test1Page",
+    "ViewModel/Statistics/test2Page"
   ]
 }
