@@ -5,6 +5,8 @@
     "ViewModel/Agent/testPage",
     "ViewModel/Agents/tsetPage",
     "ViewModel/Main/test1Page",
-    "ViewModel/Statistics/test2Page"
+    "ViewModel/Statistics/test2Page",
+    "Component/test3Page"
+
   ]
 }
