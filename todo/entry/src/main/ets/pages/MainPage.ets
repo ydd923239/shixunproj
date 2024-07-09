@@ -10,21 +10,21 @@ struct MainPage{
         Text('代办')
 
       }
-      .tabBar(this.barBuilder(0,"代办","http://sf091id88.hn-bkt.clouddn.com/image/%E4%BA%A4%E6%98%93-%E7%A7%9F.png","http://sf091id88.hn-bkt.clouddn.com/image/%E4%BA%A4%E6%98%93-%E7%A7%9F%20%281%29.png"))
+      .tabBar(this.barBuilder(0,"代办","http://sgc41cs1y.hn-bkt.clouddn.com/agent.jpg","http://sgc41cs1y.hn-bkt.clouddn.com/agented.jpg"))
       TabContent() {
 Text('代办集')
       }
-      .tabBar(this.barBuilder(1,'代办集','http://sf091id88.hn-bkt.clouddn.com/image/%E4%BB%A3.png','http://sf091id88.hn-bkt.clouddn.com/image/%E4%BB%A3%20%281%29.png'))
+      .tabBar(this.barBuilder(1,'代办集','http://sgc41cs1y.hn-bkt.clouddn.com/agents.jpg','http://sgc41cs1y.hn-bkt.clouddn.com/agentsed.jpg'))
       TabContent() {
 Text('统计数据')
       }
 
-      .tabBar(this.barBuilder(2,"统计数据","http://sf091id88.hn-bkt.clouddn.com/image/%E9%99%AA%E7%8E%A9%E5%AE%982.png","http://sf091id88.hn-bkt.clouddn.com/image/%E9%99%AA%E7%8E%A9%E5%AE%982%20%281%29.png"))
+      .tabBar(this.barBuilder(2,"统计数据","http://sgc41cs1y.hn-bkt.clouddn.com/statistics.jpg","http://sgc41cs1y.hn-bkt.clouddn.com/statisticsed.jpg"))
 
       TabContent() {
 Text('我的')
       }
-      .tabBar(this.barBuilder(3,"我的","http://sf091id88.hn-bkt.clouddn.com/image/icon%EF%BC%8F%E5%B9%BF%E5%9C%BA.png","http://sf091id88.hn-bkt.clouddn.com/image/icon%EF%BC%8F%E5%B9%BF%E5%9C%BA%20%281%29.png"))
+      .tabBar(this.barBuilder(3,"我的","http://sgc41cs1y.hn-bkt.clouddn.com/main.jpg","http://sgc41cs1y.hn-bkt.clouddn.com/mained.jpg"))
     }
     .barPosition(BarPosition.End)
     .onChange(index=>{
@@ -38,7 +38,7 @@ Text('我的')
         .width(30)
         .height(30)
       Text(title)
-        .tabTitleStyle(this.currentTabIndex===index?Color.Blue:Color.Black)
+        .tabTitleStyle(this.currentTabIndex===index? "#ffbc7703" :"#ffa2a1a1")
     }
   }
 }
