@@ -1,12 +1,12 @@
 @Entry
 @Component
-struct Test1Page {
+struct CalendarPage {
   @State message: string = 'Hello World';
 
   build() {
     RelativeContainer() {
       Text(this.message)
-        .id('Test1PageHelloWorld')
+        .id('CalendarPageHelloWorld')
         .fontSize(50)
         .fontWeight(FontWeight.Bold)
         .alignRules({
