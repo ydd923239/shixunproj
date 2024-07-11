@@ -1,13 +1,13 @@
 @Entry
 @Component
-struct Index {
-  @State message: string = 'Hello';
+struct Test3Page {
+  @State message: string = 'Hello World';
 
   build() {
     RelativeContainer() {
       Text(this.message)
-        .id('HelloWorld')
-        .fontSize(80)
+        .id('Test3PageHelloWorld')
+        .fontSize(50)
         .fontWeight(FontWeight.Bold)
         .alignRules({
           center: { anchor: '__container__', align: VerticalAlign.Center },
