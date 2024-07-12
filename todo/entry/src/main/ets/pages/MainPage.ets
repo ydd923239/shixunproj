@@ -1,4 +1,6 @@
 import { Mypage } from '../ViewModel/Mine/MyPage';
+import { CalendarPage } from './CalendarPage';
+
 @Entry
 @Component
 struct MainPage {
@@ -13,7 +15,8 @@ struct MainPage {
         "http://sgc41cs1y.hn-bkt.clouddn.com/agented.jpg"))
 
       TabContent() {
-        Text('日历')
+        CalendarPage()
+
       }
       .tabBar(this.barBuilder(1, '日历', 'http://sgc41cs1y.hn-bkt.clouddn.com/agents.jpg',
         'http://sgc41cs1y.hn-bkt.clouddn.com/agentsed.jpg'))
