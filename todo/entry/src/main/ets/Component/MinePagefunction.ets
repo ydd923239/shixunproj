@@ -1,4 +1,5 @@
 import { Minefunction } from '../Class/MineFunctionClass'
+import router from '@ohos.router'
 
 
 @Component
@@ -14,6 +15,14 @@ export struct MineFunctionPage   {
             .borderRadius(100)
           Text(item.title)
             .width("30%")
+          Image("http://sgc41cs1y.hn-bkt.clouddn.com/mine/chevron_right%20%281%29.png")
+            .width("5%")
+            .margin({left:145})
+            .onClick(()=>{
+              router.pushUrl({
+                url:item.url
+              })
+            })
         }
         Divider()
           .strokeWidth(1)

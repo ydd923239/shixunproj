@@ -6,6 +6,7 @@
     "ViewModel/Agents/tsetPage",
     "ViewModel/Statistics/test2Page",
     "Component/test3Page",
-    "pages/CalendarPage"
+    "pages/CalendarPage",
+    "ViewModel/Mine/PasswordprotectionPage"
   ]
 }
