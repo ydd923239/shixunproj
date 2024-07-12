@@ -18,13 +18,14 @@ export struct MineFunctionPage   {
           Image("http://sgc41cs1y.hn-bkt.clouddn.com/mine/chevron_right%20%281%29.png")
             .width("5%")
             .margin({left:"150"})
-            .onClick(()=>{
-              console.log("点击了")
-              router.pushUrl({
-                url:item.url
-              })
-            })
+
         }
+        .onClick(()=>{
+          console.log("点击了")
+          router.pushUrl({
+            url:item.url
+          })
+        })
         Divider()
           .strokeWidth(1)
       })

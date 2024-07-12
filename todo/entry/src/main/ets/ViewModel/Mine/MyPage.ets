@@ -1,10 +1,11 @@
 import { Minefunction } from '../../Class/MineFunctionClass'
 import { MineFunctionPage } from '../../Component/MinePagefunction'
 import { HeadPage } from './headPage'
+
 @Entry
 @Component
 export struct Mypage {
-  @State MinefunctionList:Minefunction[]=[new Minefunction("http://sgc41cs1y.hn-bkt.clouddn.com/mine/1.jpg", "TODO钟设置",""),
+  @State MinefunctionList:Minefunction[]=[new Minefunction("http://sgc41cs1y.hn-bkt.clouddn.com/mine/1.jpg", "TODO钟设置","ViewModel/Mine/SettingPage"),
     new Minefunction("http://sgc41cs1y.hn-bkt.clouddn.com/mine/2.jpg", "未来计划",""),
     new Minefunction("http://sgc41cs1y.hn-bkt.clouddn.com/mine/3.jpg", "密码保护", "ViewModel/Mine/PasswordprotectionPage"),
     new Minefunction("http://sgc41cs1y.hn-bkt.clouddn.com/mine/4.jpg", "备份还原",""),
