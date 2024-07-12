@@ -6,7 +6,10 @@
     "ViewModel/Agents/tsetPage",
     "ViewModel/Statistics/test2Page",
     "Component/test3Page",
-    "ViewModel/Mine/test1Page",
-    "pages/CalendarPage"
+    "pages/CalendarPage",
+    "ViewModel/Mine/PasswordprotectionPage",
+    "ViewModel/Mine/SettingPage",
+    "ViewModel/Mine/FuturePlan",
+    "ViewModel/Mine/desktopPage"
   ]
 }
