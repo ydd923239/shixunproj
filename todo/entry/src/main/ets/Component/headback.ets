@@ -13,7 +13,7 @@ struct headback {
           router.back()
         })
       Text(this.title)
-        .fontSize(26)
+        .fontSize(28)
         .fontColor(Color.White)
         .alignSelf(ItemAlign.Center)
         .margin({ left: "5%" })
