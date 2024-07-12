@@ -10,6 +10,8 @@
     "ViewModel/Mine/PasswordprotectionPage",
     "ViewModel/Mine/SettingPage",
     "ViewModel/Mine/FuturePlan",
-    "ViewModel/Mine/desktopPage"
+    "ViewModel/Mine/desktopPage",
+    "ViewModel/Mine/BackUp",
+    "ViewModel/Mine/PrivacyPolicy"
   ]
 }
