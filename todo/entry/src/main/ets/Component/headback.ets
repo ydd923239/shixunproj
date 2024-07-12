@@ -18,7 +18,7 @@ struct headback {
         .alignSelf(ItemAlign.Center)
         .margin({ left: "5%" })
     }
-    .backgroundColor("#fff35e72")
+    .backgroundColor("#ff5077f8")
     .width("100%")
     .height("6%")
   }
