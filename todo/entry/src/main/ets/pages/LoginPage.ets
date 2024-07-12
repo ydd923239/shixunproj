@@ -1,6 +1,5 @@
 import router  from '@ohos.router'
-import {  AxiosResponse } from '@ohos/axios'
-import { getUser, Login} from '../api/user/user'
+
 
 
 
