@@ -7,7 +7,7 @@ import { HeadPage } from './headPage'
 export struct Mypage {
   @State MinefunctionList:Minefunction[]=[new Minefunction("app.media.startIcon", "TODO钟设置",""),
     new Minefunction("app.media.startIcon", "未来计划",""),
-    new Minefunction("app.media.startIcon", "密码保护",""),
+    new Minefunction("app.media.startIcon", "密码保护",  "ViewModel/Mine/PasswordprotectionPage"),
     new Minefunction("app.media.startIcon", "备份还原",""),
     new Minefunction("app.media.startIcon", "桌面小部件",""),
     new Minefunction("app.media.startIcon", "意见反馈",""),
