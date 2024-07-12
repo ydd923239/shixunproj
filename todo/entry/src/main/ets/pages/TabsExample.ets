@@ -92,14 +92,14 @@ struct huizong{
 
         GridItem(){
           Column(){
-            Text('0').numStyle()
+            Text('10').numStyle()
             Text("本周收成").huiStyle()
           }
         }
 
         GridItem(){
           Column(){
-            Text('0').numStyle()
+            Text('10').numStyle()
             Text("总收成").huiStyle()
           }
         }
@@ -113,14 +113,14 @@ struct huizong{
 
         GridItem(){
           Column(){
-            Text('0').numStyle()
+            Text('30').numStyle()
             Text("本周专注时间(分钟)").huiStyle()
           }
         }
 
         GridItem(){
           Column(){
-            Text('0').numStyle()
+            Text('30').numStyle()
             Text("总专注时间(分钟)").huiStyle()
           }
         }
@@ -141,6 +141,13 @@ struct fanqiequxian {
       Row() {
         Text('番茄曲线').tiStyle()
       }.ti1Style()
+      Row(){
+        Polyline({width:"90%",height:"90%"})
+          .points([[0,90],[50,90],[100,50],[150,90],[200,90],[250,60],[300,90]])
+          .fillOpacity(0)
+          .stroke(Color.Orange)
+          .strokeWidth(3)
+      }
 
     }
   }
@@ -154,6 +161,13 @@ struct timequxian {
         Text('专注时间曲线').tiStyle()
       }.ti1Style()
 
+      Row(){
+        Polyline({width:"90%",height:"90%"})
+          .points([[0,90],[50,90],[100,50],[150,90],[200,90],[250,60],[300,90]])
+          .fillOpacity(0)
+          .stroke(Color.Orange)
+          .strokeWidth(3)
+      }
     }
   }
 }
@@ -201,14 +215,14 @@ struct huizong2{
 
         GridItem(){
           Column(){
-            Text('0').numStyle()
+            Text('10').numStyle()
             Text("本周完成数").huiStyle()
           }
         }
 
         GridItem(){
           Column(){
-            Text('0').numStyle()
+            Text('10').numStyle()
             Text("总完成数").huiStyle()
           }
         }
@@ -229,6 +243,13 @@ struct wanchengquxian {
       Row() {
         Text('完成曲线').tiStyle()
       }.ti1Style()
+      Row(){
+        Polyline({width:"90%",height:"90%"})
+          .points([[0,90],[50,90],[100,50],[150,90],[200,90],[250,60],[300,90]])
+          .fillOpacity(0)
+          .stroke(Color.Orange)
+          .strokeWidth(3)
+      }
 
     }
   }

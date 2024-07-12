@@ -1,4 +1,5 @@
 import { Mypage } from '../ViewModel/Mine/MyPage';
+import { Statistics } from './Statistics';
 
 @Entry
 @Component
@@ -22,7 +23,7 @@ struct MainPage {
         'http://sgc41cs1y.hn-bkt.clouddn.com/agentsed.jpg'))
 
       TabContent() {
-        Text('统计')
+        Statistics()
       }
 
       .tabBar(this.barBuilder(2, "统计", "http://sgc41cs1y.hn-bkt.clouddn.com/statistics.jpg",
