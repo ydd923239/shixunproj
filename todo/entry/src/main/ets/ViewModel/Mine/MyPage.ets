@@ -9,7 +9,7 @@ export struct Mypage {
     new Minefunction("http://sgc41cs1y.hn-bkt.clouddn.com/mine/2.jpg", "未来计划","ViewModel/Mine/FuturePlan"),
     new Minefunction("http://sgc41cs1y.hn-bkt.clouddn.com/mine/3.jpg", "密码保护", "ViewModel/Mine/PasswordprotectionPage"),
     new Minefunction("http://sgc41cs1y.hn-bkt.clouddn.com/mine/4.jpg", "备份还原",""),
-    new Minefunction("http://sgc41cs1y.hn-bkt.clouddn.com/mine/5.jpg", "桌面小部件",""),
+    new Minefunction("http://sgc41cs1y.hn-bkt.clouddn.com/mine/5.jpg", "桌面小部件","ViewModel/Mine/desktopPage"),
     new Minefunction("http://sgc41cs1y.hn-bkt.clouddn.com/mine/6.jpg", "意见反馈",""),
     new Minefunction("http://sgc41cs1y.hn-bkt.clouddn.com/mine/7.jpg", "评价应用",""),
     new Minefunction("http://sgc41cs1y.hn-bkt.clouddn.com/mine/8.jpg", "隐私政策",""),

@@ -9,6 +9,7 @@
     "pages/CalendarPage",
     "ViewModel/Mine/PasswordprotectionPage",
     "ViewModel/Mine/SettingPage",
-    "ViewModel/Mine/FuturePlan"
+    "ViewModel/Mine/FuturePlan",
+    "ViewModel/Mine/desktopPage"
   ]
 }
