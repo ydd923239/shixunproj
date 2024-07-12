@@ -28,7 +28,7 @@ export struct TabsExample {
       Tabs({ barPosition: BarPosition.Start, index: this.currentIndex, controller: this.controller }) {
         TabContent() {
           view1()
-        }.tabBar(this.tabBuilder(0, '番茄'))
+        }.tabBar(this.tabBuilder(0, 'TODO'))
 
         TabContent() {
           view2()
@@ -139,7 +139,7 @@ struct fanqiequxian {
   build() {
     Column() {
       Row() {
-        Text('番茄曲线').tiStyle()
+        Text('TODO曲线').tiStyle()
       }.ti1Style()
       Row(){
         Polyline({width:"90%",height:"90%"})

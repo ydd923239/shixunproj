@@ -7,9 +7,7 @@ export struct CalendarPage {
   @State message: string = '日期';
   @State nextMonthDays: number[] = [];
   build() {
-
     Column() {
-
       Row() {
         Text('<' + this.message + '>')
           .fontSize(25)
