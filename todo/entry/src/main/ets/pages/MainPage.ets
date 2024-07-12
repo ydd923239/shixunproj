@@ -1,5 +1,7 @@
 import { Mypage } from '../ViewModel/Mine/MyPage';
 import { CalendarPage } from './CalendarPage';
+import { TabsExample } from './TabsExample';
+import { ToDoList } from './todopage/sutestPage';
 
 @Entry
 @Component
@@ -9,7 +11,7 @@ struct MainPage {
   build() {
     Tabs() {
       TabContent() {
-        Text('任务')
+        ToDoList()
       }
       .tabBar(this.barBuilder(0, "任务", "http://sgc41cs1y.hn-bkt.clouddn.com/agent.jpg",
         "http://sgc41cs1y.hn-bkt.clouddn.com/agented.jpg"))
@@ -22,7 +24,7 @@ struct MainPage {
         'http://sgc41cs1y.hn-bkt.clouddn.com/agentsed.jpg'))
 
       TabContent() {
-        Text('统计')
+        TabsExample()
       }
 
       .tabBar(this.barBuilder(2, "统计", "http://sgc41cs1y.hn-bkt.clouddn.com/statistics.jpg",

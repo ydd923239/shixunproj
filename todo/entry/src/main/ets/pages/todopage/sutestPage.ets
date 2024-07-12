@@ -12,7 +12,7 @@ function ImageStyle() {
 
 @Entry
 @Component
-struct ToDoList {
+export struct ToDoList {
   @State toDoData: ToDo[] = [];
   @State achieveData: ToDo[] = [];
 
