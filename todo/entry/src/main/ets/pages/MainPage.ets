@@ -1,17 +1,13 @@
 import { Mypage } from '../ViewModel/Mine/MyPage';
-import { Statistics } from './Statistics';
-
 @Entry
 @Component
 struct MainPage {
   @State message: string = 'Hello World'
   @State currentTabIndex: number = 0; //记录当前选项卡的index
-
   build() {
     Tabs() {
       TabContent() {
         Text('任务')
-
       }
       .tabBar(this.barBuilder(0, "任务", "http://sgc41cs1y.hn-bkt.clouddn.com/agent.jpg",
         "http://sgc41cs1y.hn-bkt.clouddn.com/agented.jpg"))
@@ -23,7 +19,7 @@ struct MainPage {
         'http://sgc41cs1y.hn-bkt.clouddn.com/agentsed.jpg'))
 
       TabContent() {
-        Statistics()
+        Text('统计')
       }
 
       .tabBar(this.barBuilder(2, "统计", "http://sgc41cs1y.hn-bkt.clouddn.com/statistics.jpg",
@@ -53,7 +49,6 @@ struct MainPage {
     }
   }
 }
-
 @Extend(Text)
 function tabTitleStyle(color: ResourceColor) {
   .fontSize(10)
