@@ -11,9 +11,9 @@ export struct HeadPage {
 
       Text("我的")
         .fontSize(26)
-        .fontWeight(FontWeight.Bolder)
-      Row({space:10}){
-        Image($r("app.media.startIcon"))
+        .fontWeight(FontWeight.Bold)
+      Row({space:20}){
+        Image("http://sgc41cs1y.hn-bkt.clouddn.com/mine/tx.jpg")
           .width("20%")
 
           .borderRadius(100)
@@ -28,8 +28,8 @@ export struct HeadPage {
         .alignItems(HorizontalAlign.Start)
       }
     }
-    .margin({left:20})
-    .height("100%")
+
+
     .width("100%")
     .alignItems(HorizontalAlign.Start)
 
