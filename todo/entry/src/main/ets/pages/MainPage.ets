@@ -1,3 +1,5 @@
+import { Mypage } from '../ViewModel/Mine/MyPage';
+import { CalendarPage } from './CalendarPage';
 
 @Entry
 @Component
@@ -7,22 +9,21 @@ struct MainPage{
   build() {
     Tabs() {
       TabContent() {
-        Text('代办')
 
       }
-      .tabBar(this.barBuilder(0,"代办","http://sgc41cs1y.hn-bkt.clouddn.com/agent.jpg","http://sgc41cs1y.hn-bkt.clouddn.com/agented.jpg"))
+      .tabBar(this.barBuilder(0,"任务","http://sgc41cs1y.hn-bkt.clouddn.com/agent.jpg","http://sgc41cs1y.hn-bkt.clouddn.com/agented.jpg"))
       TabContent() {
-Text('代办集')
+        CalendarPage()
       }
-      .tabBar(this.barBuilder(1,'代办集','http://sgc41cs1y.hn-bkt.clouddn.com/agents.jpg','http://sgc41cs1y.hn-bkt.clouddn.com/agentsed.jpg'))
+      .tabBar(this.barBuilder(1,'日历','http://sgc41cs1y.hn-bkt.clouddn.com/agents.jpg','http://sgc41cs1y.hn-bkt.clouddn.com/agentsed.jpg'))
       TabContent() {
-Text('统计数据')
+Text('统计')
       }
 
-      .tabBar(this.barBuilder(2,"统计数据","http://sgc41cs1y.hn-bkt.clouddn.com/statistics.jpg","http://sgc41cs1y.hn-bkt.clouddn.com/statisticsed.jpg"))
+      .tabBar(this.barBuilder(2,"统计","http://sgc41cs1y.hn-bkt.clouddn.com/statistics.jpg","http://sgc41cs1y.hn-bkt.clouddn.com/statisticsed.jpg"))
 
       TabContent() {
-Text('我的')
+Mypage()
       }
       .tabBar(this.barBuilder(3,"我的","http://sgc41cs1y.hn-bkt.clouddn.com/main.jpg","http://sgc41cs1y.hn-bkt.clouddn.com/mained.jpg"))
     }
