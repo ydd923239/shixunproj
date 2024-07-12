@@ -12,6 +12,7 @@
     "ViewModel/Mine/FuturePlan",
     "ViewModel/Mine/desktopPage",
     "ViewModel/Mine/BackUp",
-    "ViewModel/Mine/PrivacyPolicy"
+    "ViewModel/Mine/PrivacyPolicy",
+    "pages/LoginPage"
   ]
 }
