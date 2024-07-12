@@ -1,4 +1,5 @@
 import { Mypage } from '../ViewModel/Mine/MyPage';
+import { CalendarPage } from './CalendarPage';
 
 @Entry
 @Component
@@ -8,12 +9,12 @@ struct MainPage{
   build() {
     Tabs() {
       TabContent() {
-        Text('任务')
+
 
       }
       .tabBar(this.barBuilder(0,"任务","http://sgc41cs1y.hn-bkt.clouddn.com/agent.jpg","http://sgc41cs1y.hn-bkt.clouddn.com/agented.jpg"))
       TabContent() {
-Text('日历')
+        CalendarPage()
       }
       .tabBar(this.barBuilder(1,'日历','http://sgc41cs1y.hn-bkt.clouddn.com/agents.jpg','http://sgc41cs1y.hn-bkt.clouddn.com/agentsed.jpg'))
       TabContent() {

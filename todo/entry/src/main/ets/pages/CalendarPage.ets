@@ -3,7 +3,7 @@ import router from '@ohos.router';
 
 @Entry
 @Component
-struct CalendarPage {
+export struct CalendarPage {
   @State message: string = '日期';
   @State nextMonthDays: number[] = [];
   build() {
