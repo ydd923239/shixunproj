@@ -10,7 +10,6 @@ struct MainPage{
     Tabs() {
       TabContent() {
 
-
       }
       .tabBar(this.barBuilder(0,"任务","http://sgc41cs1y.hn-bkt.clouddn.com/agent.jpg","http://sgc41cs1y.hn-bkt.clouddn.com/agented.jpg"))
       TabContent() {
