@@ -10,15 +10,16 @@ export struct MineFunctionPage   {
     Column({space:10}){
       ForEach(this.functionList,(item:Minefunction)=>{
         Row({space:10}){
-          Image($r(item.image))
+          Image(item.image)
             .width("10%")
-            .borderRadius(100)
+            .borderRadius(20)
           Text(item.title)
             .width("30%")
           Image("http://sgc41cs1y.hn-bkt.clouddn.com/mine/chevron_right%20%281%29.png")
             .width("5%")
-            .margin({left:145})
+            .margin({left:"150"})
             .onClick(()=>{
+              console.log("点击了")
               router.pushUrl({
                 url:item.url
               })

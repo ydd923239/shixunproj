@@ -12,8 +12,8 @@ export struct HeadPage {
       Text("我的")
         .fontSize(26)
         .fontWeight(FontWeight.Bold)
-      Row({space:10}){
-        Image($r("app.media.startIcon"))
+      Row({space:20}){
+        Image("http://sgc41cs1y.hn-bkt.clouddn.com/mine/tx.jpg")
           .width("20%")
 
           .borderRadius(100)

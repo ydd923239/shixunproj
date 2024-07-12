@@ -1,20 +1,19 @@
 import { Minefunction } from '../../Class/MineFunctionClass'
 import { MineFunctionPage } from '../../Component/MinePagefunction'
 import { HeadPage } from './headPage'
-
 @Entry
 @Component
 export struct Mypage {
-  @State MinefunctionList:Minefunction[]=[new Minefunction("app.media.startIcon", "TODO钟设置",""),
-    new Minefunction("app.media.startIcon", "未来计划",""),
-    new Minefunction("app.media.startIcon", "密码保护",  "ViewModel/Mine/PasswordprotectionPage"),
-    new Minefunction("app.media.startIcon", "备份还原",""),
-    new Minefunction("app.media.startIcon", "桌面小部件",""),
-    new Minefunction("app.media.startIcon", "意见反馈",""),
-    new Minefunction("app.media.startIcon", "评价应用",""),
-    new Minefunction("app.media.startIcon", "隐私政策",""),
-    new Minefunction("app.media.startIcon", "用户协议",""),
-    new Minefunction("app.media.startIcon", "版本检测","")
+  @State MinefunctionList:Minefunction[]=[new Minefunction("http://sgc41cs1y.hn-bkt.clouddn.com/mine/1.jpg", "TODO钟设置",""),
+    new Minefunction("http://sgc41cs1y.hn-bkt.clouddn.com/mine/2.jpg", "未来计划",""),
+    new Minefunction("http://sgc41cs1y.hn-bkt.clouddn.com/mine/3.jpg", "密码保护", "ViewModel/Mine/PasswordprotectionPage"),
+    new Minefunction("http://sgc41cs1y.hn-bkt.clouddn.com/mine/4.jpg", "备份还原",""),
+    new Minefunction("http://sgc41cs1y.hn-bkt.clouddn.com/mine/5.jpg", "桌面小部件",""),
+    new Minefunction("http://sgc41cs1y.hn-bkt.clouddn.com/mine/6.jpg", "意见反馈",""),
+    new Minefunction("http://sgc41cs1y.hn-bkt.clouddn.com/mine/7.jpg", "评价应用",""),
+    new Minefunction("http://sgc41cs1y.hn-bkt.clouddn.com/mine/8.jpg", "隐私政策",""),
+    new Minefunction("http://sgc41cs1y.hn-bkt.clouddn.com/mine/9.jpg", "用户协议",""),
+    new Minefunction("http://sgc41cs1y.hn-bkt.clouddn.com/mine/10.jpg", "版本检测","")
     ] as Minefunction[]
 
   build() {
