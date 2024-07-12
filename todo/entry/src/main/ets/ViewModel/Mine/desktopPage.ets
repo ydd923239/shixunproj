@@ -14,6 +14,8 @@ struct DesktopPage {
   build() {
     Column() {
       headback({ title: "添加小部件"})
+      Divider()
+        .strokeWidth(10)
       desktop({ desktopList: this.desktopList })
     }
     .width('100%')
