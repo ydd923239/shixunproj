@@ -18,7 +18,7 @@ export struct Passwordfunction{
        }
        .alignItems(HorizontalAlign.Start)
        Toggle({ type: ToggleType.Switch, isOn: false })
-         .selectedColor("#fff35e72")
+         .selectedColor("#ff609bf5")
          .switchPointColor('#f8fdfbfb')
          .onChange((isOn: boolean) => {
            console.info('Component status:' + isOn)
